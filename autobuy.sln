@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "autobuy.web", "autobuy.web\autobuy.web.csproj", "{C01A443D-0C84-4B6A-AB9E-F3424C19E195}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "autobuy.business", "autobuy.business\autobuy.business.csproj", "{3364CF69-189E-430B-A372-50240E444A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "autobuy.infrastructure", "autobuy.infrastructure\autobuy.infrastructure.csproj", "{FD0F69A8-ECB9-4429-8E8B-DB5B7B27BDE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "autobuy.service", "autobuy.service\autobuy.service.csproj", "{FCECB920-967C-4790-9F04-76714262C6A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{C01A443D-0C84-4B6A-AB9E-F3424C19E195}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C01A443D-0C84-4B6A-AB9E-F3424C19E195}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C01A443D-0C84-4B6A-AB9E-F3424C19E195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3364CF69-189E-430B-A372-50240E444A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3364CF69-189E-430B-A372-50240E444A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3364CF69-189E-430B-A372-50240E444A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3364CF69-189E-430B-A372-50240E444A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0F69A8-ECB9-4429-8E8B-DB5B7B27BDE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0F69A8-ECB9-4429-8E8B-DB5B7B27BDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0F69A8-ECB9-4429-8E8B-DB5B7B27BDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0F69A8-ECB9-4429-8E8B-DB5B7B27BDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCECB920-967C-4790-9F04-76714262C6A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCECB920-967C-4790-9F04-76714262C6A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCECB920-967C-4790-9F04-76714262C6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCECB920-967C-4790-9F04-76714262C6A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
